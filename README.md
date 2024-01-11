@@ -8,7 +8,7 @@ O projeto `Data Frame Escola` visa criar e manipular um conjunto de dados repres
 
 ### 1. Creando Nombre
 
-Nesta seção, são gerados os nomes dos alunos utilizando dados dos nomes mais comuns fornecidos pelo IBGE.
+Nesta seção, são gerados os nomes dos alunos utilizando dados dos nomes mais comuns fornecidos pelo IBGE(https://servicodados.ibge.gov.br/api/v1/censos/nomes).
 
 ### 2. Incluyendo Id de Alumnos
 
@@ -16,7 +16,7 @@ Cada aluno recebe um ID único nesta etapa, permitindo uma identificação fáci
 
 ### 3. Creando Cursos
 
-Aqui, são criados diversos cursos de programação, extraídos de fontes relevantes na área, para serem oferecidos aos alunos.
+Aqui, são criados diversos cursos de programação, extraídos da url(https://www.tiobe.com/tiobe-index/)
 
 ### 4. Adicionando Index
 
@@ -49,6 +49,13 @@ Demonstração de como realizar buscas no banco de dados interno, proporcionando
 ### 11. Nombres para el Ingreso
 
 Listagem dos alunos matriculados em um determinado curso, com a possibilidade de impressão dessas informações. As matrículas são provenientes de vários cursos de computação, extraídas de outro site.
+
+## Tecnologia y Frameworks 
+
+- Python
+- Sqlite
+- Pandas
+- Numpy
 
 ## Contribuição
 
